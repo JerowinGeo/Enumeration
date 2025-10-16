@@ -66,10 +66,10 @@ cache: This operator allows you to view the cached version of a page. For exampl
 ![369619371-119c8d0d-ef5a-4f0c-92d8-3db9f70e672b](https://github.com/user-attachments/assets/d67f3059-e448-48ff-a1f9-d13da7148618)
 
  
-#DNS Enumeration
+# DNS Enumeration
 
 
-##DNS Recon
+## DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
@@ -84,7 +84,7 @@ Top level domain expansion
 
 
 
-##dnsenum
+## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -102,7 +102,7 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 ![369619472-116b53dd-fac1-4bf4-8de4-f2f56dd33bec](https://github.com/user-attachments/assets/4f4e3877-ba3d-42fd-ad97-49085b49b86c)
 
 
-##smtp-user-enum
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
 
@@ -111,12 +111,12 @@ In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 select any username in the first column of the above file and check the same
 
 
-#Telnet for smtp enumeration
+# Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
+ ## Output
  ![369619502-37e92783-0233-48a6-b9e0-31f8ab163965](https://github.com/user-attachments/assets/39a0e98c-721a-4a91-bbd5-5a3aacf2bba1)
  
   
